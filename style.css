@@ -162,7 +162,39 @@ body{
     width: 55%;
 }
 
+
+
+#card-section{
+    text-align: center;
+}
+#card-section h2{
+    font-size: 50px;
+}
+#card-section label{
+    font-size: 20px;
+}
+#card-section input{  
+    width: 30%;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 30px;
+}
+
+#card-section input[type="submit"]{
+    background-color: lightgray;
+    font-size: 20px;
+}
+#card-section input[type="search"]{
+    text-align: center;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+
+
 #subscribe-box{
+    background-color: antiquewhite;
     text-align: center;
     margin: 80px;
 }
