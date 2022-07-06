@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    height: 713px; 
+}
+
+.heading{
+    text-align: center;
+    padding-top: 220px;    
+}
+.heading h1{
+    font-size: 65px;
+    color: white;
+}
+.heading p{
+    color: white;
+    font-size: 20px;
+}
+#banner .heading a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+#main{
+    text-align: center;
+    margin: 80px;
+}
+#main h1{
+    font-size: 50px;
+    font: bold;
+}
+#main p{
+    color: gray;
+    font-size: 20px;
+}
+#main .ammount{
+    float: left;
+    width: 100%; 
+}
+#main .ammount a{
+    text-decoration: none;
+    padding-left: 60px;
+    font-size: 40px;
+    color: darkslategrey;
+}
+#main .ammount a span{
+    border: 3px solid red;
+    border-radius: 5px;
+    color: tomato;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+#main .taka{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 20px;
+}
+#main .donate{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+
+.dotted-hr{
+    border: solid 1px gray;
+    margin: 0 auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 60%;
+}
+
+
+
+.box-heading{
+    text-align: center;
+}
+.box-heading h1{
+    font-size: 45px;
+}
+.box-heading p{
+    font-size: 15px;
+    color: lightslategray;
+}
+.all-box{
+    display: flex;
+}
+.box-1{
+    width: 33%;
+    margin: 30px 20px;
+    padding: 40px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    height: 420px;
+}
+.box-1 img{
+    width: 20%;
+    margin: 20px 0;
+}
+.box-1 h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.box-1 p{
+    font-size: 15px;
+    margin: 20px 0;
+    color: gray;
+}
+
+#box-no-1{
+    background-color: antiquewhite;
+}
+#box-no-2{
+    background-color: aliceblue;
+}
+#box-no-3{
+    background-color: cornsilk;
+}
+
+
+#about{
+    display: flex;
+    margin: 80px 20px 80px 60px;
+}
+#about .about-us{
+    width: 45%; 
+    background-color: lightcyan;
+    padding-left: 30px;
+}
+#about .about-us h1{
+    font-size: 60px;
+    color: wheat;
+}
+#about .about-us h2{
+    font-size: 30px;
+    color: aquamarine;
+}
+#about .about-us p{
+    color: gray;
+    font-size: 15px;
+}
+#about .about-us h3{
+    color: cadetblue;
+}
+
+#about .image{
+    width: 55%;
+}
+
+#subscribe-box{
+    text-align: center;
+    margin: 80px;
+}
+#subscribe-box h1{
+    font-size: 50px;
+}
+#subscribe-box p{
+    color: gray;
+    font-size: 20px;
+}
+#subscribe-box .input-tag{
+    background-color: antiquewhite;
+    padding: 80px;
+}
+#subscribe-box .input-tag .email{
+    border: none;
+    background-color: lightgray;
+    padding: 10px;
+}
+#subscribe-box .input-tag .subscribe{
+    border: none;
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+footer h1{
+    color: tomato;
+    font-family: 'Splash', 'cursive';
+}
